@@ -1,0 +1,22 @@
+Microsoft Windows Imaging Format (WIM) 映像是MS新型的映像文件，具高压缩比、挂接方便、挂接内存小等特点。
+在XP/2K3的PE中通过挂接WIM作为外置程序，可以避免外置程序受到病毒等因素的破坏，使外置程序更加安全可靠，同时
+也可使对外发行的PE打包文件更小更简洁。
+
+１、PE中的WimFltr组件
+　　在现行PE中增加挂接WIM文件的支持相当简单，无需修改TXTSETUP.SIF文件、也无需.INF文件，只需在注册表文件(SETUPREG.HIV)
+增加两项服务，分别向SYSTEM32目录、DRIVERS目录复制两个文件即可，下面是WimFltr组件的文件列表：
+
+I386
+  |
+  +---SYSTEM32
+           |
+           +-----WIMGAPI.DLL
+           |
+           +-----FLTLIB.DLL
+           |
+           +-----DRIVERS
+                      |
+                      +-----WIMFLTR.SYS
+                      |
+                      +-----WIMFSF.SYS
+

@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.first{
+    margin-left: 20%;
+}
+#top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+#top .wel{
+    margin-left: 50%;
+}
+#title{
+    width: 100%;
+    height: 100px;
+    background-color: #1d7ad9;
+    display: flex;
+    align-items: center;
+}
+#title div{
+    display: inline-block;
+}
+#shopimg{
+    width: 120px;
+    height: 80px;
+    margin-top: 10px;
+}
+#icon{
+    height: 100%;
+}
+#shopcar{
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopnum{
+    margin: 35px 0;
+}
+#shopipt{
+    margin: 35px 5% 35px 10%;
+}
+#title input{
+    width: 300px;
+    height: 26px;
+}
+#title button{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #ff8c00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#shopcar{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ff8c00;
+    color: white;
+}
+#shopcar img{
+    width: 23px;
+    height: 20px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+#shopnum{
+    border-left: 1px solid white;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ff8c00;
+    color: white;
+    margin: 80px;
+}
+#list{
+    width: 100%;
+    height: 50px;
+    background-color: #1369c0;
+}
+#list div,ul,li{
+    display: inline-block;
+}
+#list div{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#list ul li{
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+#wrapper{
+    width: 100%;
+    height: 1428px;
+}
+#wrapper #product_list{
+    display: inline-block;
+    width: 200px;
+    min-height: 100px;
+    float: left;
+}
+#wrapper #product_list li{
+    width: 198px;
+    height: 78px;
+    background-color: #4593fd;
+    border: 1px solid #c2d9f8;
+}
+#wrapper #product_list li p .product_list_span{
+    margin:20px 0 0 10px;
+    color: white
+}
+#wrapper #product_list li .product_list_name{
+    margin:20px 0 0 10px;
+    font-size: 10px;
+    color: #c2d9f8
+}
+#product_list_model{
+    position: absolute;
+    width: 730px;
+    height: 410px;
+    z-index: 1;
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    display: none;
+}
+.span{
+    display: inline-block;
+    margin-left: 10px;
+}
+#product_img{
+    width: 943px;
+    height: 400px;
+    display: inline-block;
+}
+#home_computer{
+    width: 100%;
+    min-height: 100px;
+}
+.list{
+    width: 100%;
+    height: 75px;
+}
+.group{
+    width: 100%;
+    min-height: 100px;
+}
+.group .ip_list_ul{
+    display: inline-block;
+}
+.group .ip_list_ul .ip_list_li{
+    float: left;
+    display: inline-block;
+    width: 235px;
+    height: 420px;
+    border-top: 1px solid gray;
+    border-bottom: 4px solid #FF7F26;
+    border-right: 1px solid gray;
+}
+.group_img{
+    float: left;
+    width: 200px;
+    min-height: 100px;
+    display: inline-block;
+}
+#food_beverage{
+    width: 100%;
+    min-height: 100px;
+}
+#foot{
+    padding-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: #d4d4d4;
+    text-align: center;
+}

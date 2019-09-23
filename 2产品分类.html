@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="2产品分类.css">
+</head>
+<body>
+<div id="top">
+    <img src="电商网站psd/1首页/黄色五角星.png" alt="" class="first">
+    <b>收藏慕课</b>
+    <span class="wel">欢迎来到慕课网！</span>
+    <span>[<span>登录</span>]</span>
+    <span>[<span>免费注册</span>]</span>
+</div>
+<div id="title">
+    <div id="shopimg"  class="first"><img src="电商网站psd/1首页/icon1.png" alt="" id="icon"></div>
+    <div id="shopipt"><input type="text"><button>搜索</button></div>
+    <div id="shopcar"><img src="电商网站psd/1首页/cart.png" alt=""></div><span style="margin: -70px;color: white">购物车</span>
+    <div id="shopnum"><p style="margin-left: 15px;display: inline-block;margin-right: 5px">0</p><img src="电商网站psd/1首页/箭头.png" alt=""></div>
+</div>
+<div id="list">
+    <div class="first"><span>全部商品分类</span><img src="电商网站psd/1首页/三角箭头.png" alt="" style="margin-left: 20px"></div>
+    <ul>
+        <li>数码城</li>
+        <li>天黑黑</li>
+        <li>团购</li>
+        <li>发现</li>
+        <li>二手特卖</li>
+        <li>名品会</li>
+    </ul>
+</div>
+<div id="wrapper">
+    <ul id="product_list" class="first">
+        <div><span>手机、相机、数码</span></div>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">手机通讯</p>
+            <span class="span">全部手机</span><span class="span">1080P高清</span><span class="span">双卡手机</span><span class="span">拍照神器</span><span class="span">老年手机</span><span class="span">对讲机</span><span class="span">联通专区</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">数码相机</p>
+            <span class="span">单片机</span><span class="span">中长焦</span><span class="span">专业便</span><span class="span">自拍利器</span><span class="span">防水防摔</span><span class="span">一次成像</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">单反</p>
+            <span class="span">全部</span><span class="span">佳能</span><span class="span">尼康</span><span class="span">宾得</span><span class="span">哈苏</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">镜头</p>
+            <span class="span">单反镜头</span><span class="span">微单镜头</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">摄像机</p>
+            <span class="span">全部</span><span class="span">索尼</span><span class="span">松下</span><span class="span">佳能</span><span class="span">三星</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">摄像配件</p>
+            <span class="span">相机包</span><span class="span">相机电池</span><span class="span">贴膜</span><span class="span">滤镜</span><span class="span">三脚架</span><span class="span">闪光灯</span><span class="span">遮光罩</span>
+            <span class="span">遥控器</span><span class="span">专业配件</span><span class="span">清洁用品</span><span class="span">望远镜</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">数码存储</p>
+            <span class="span">刻录盘片</span><span class="span">盘片附件</span>
+        </li>
+        <li>
+            <p style="font-weight: bold;margin:10px 0 10px 20px">电子教育</p>
+            <span class="span">电子数</span><span class="span">盘电子词典</span><span class="span">幼儿教育</span><span class="span">智能学习</span><span class="span">录音笔</span>
+        </li>
+    </ul>
+    <div id="product_img">
+        <div><img src="电商网站psd/1首页/手表.png" alt="" style="height: 400px"></div>
+        <div id="camera_list">
+            <div><img src="电商网站psd/2产品分类页/商品.png" alt=""></div>
+            <div><img src="电商网站psd/2产品分类页/字.png" alt=""></div>
+        </div>
+    </div>
+</div>
+<div id="foot">
+    <p style="margin-top: 10px">慕课简介|慕课公告| 招纳贤士| 联系我们|客服热线：400-675-1234</p>
+    <p style="margin-top: 10px">Copyright © 2006 - 2014 慕课版权所有   京ICP备09037834号   京ICP证B1034-8373号   某市公安局XX分局备案编号：123456789123</p>
+    <div style="margin-top: 40px">
+        <img src="电商网站psd/1首页/可信网站.png" alt="" style="margin-right: 20px">
+        <img src="电商网站psd/1首页/可信网站.png" alt="" style="margin-right: 20px">
+        <img src="电商网站psd/1首页/可信网站.png" alt="" style="margin-right: 20px">
+        <img src="电商网站psd/1首页/可信网站.png" alt="">
+    </div>
+</div>
+<script>
+    $(function () {
+        $('#list ul li').hover(function () {
+            $(this).css({'cursor':'pointer','backgroundColor':'#4593fd'})
+        },function () {
+            $(this).css({'backgroundColor':'#1369c0'})
+        });
+    })
+</script>
+</body>
+</html>
